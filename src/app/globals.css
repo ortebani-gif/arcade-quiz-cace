@@ -1,49 +1,47 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Palette mesurée sur les maquettes */
+  --bg: #293b43;
+  --tile: #212f36;
+  --card: #073b4c;
+  --ring: #633480;
+  --border: #e0aaff;
+  --yellow: #ffd166;
+  --yellow-shadow: #f78c6b;
+  --pink: #ef476f;
+  --green: #06d6a0;
+  --purple-text: #e0aaff;
+
+  /* Unité mobile : 1 pixel de la maquette mobile (992 px de large) */
+  --u: calc(100vw / 992);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html {
-  height: 100%;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--purple-text);
+  font-family: var(--font-mono), monospace;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Conteneur de chaque écran : centre la carte au milieu de la page */
+.screen {
+  position: relative;
+  z-index: 1;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+button {
+  font-family: inherit;
 }

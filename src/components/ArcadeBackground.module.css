@@ -1,0 +1,44 @@
+/* Desktop : tuile 66x86, écart 8 (horizontal) et 32 (vertical), départ (8, 20) */
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: var(--bg);
+  pointer-events: none;
+  padding: 20px 0 0 8px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+  width: max-content;
+}
+
+/* L'image est la tuile entière ; à 20 % d'opacité son noir devient #212f36
+   sur le fond #293b43, comme sur les maquettes. */
+.tile {
+  flex: none;
+  display: block;
+  width: 66px;
+  height: 86px;
+  border-radius: 8px;
+  opacity: 0.2;
+}
+
+/* Mobile : tuile 203x275 sur la maquette 992 px, écart 31 / 79, départ décalé à gauche */
+@media (max-width: 720px) {
+  .background {
+    padding: calc(var(--u) * 52) 0 0 calc(var(--u) * -74);
+  }
+  .row {
+    gap: calc(var(--u) * 31);
+    margin-bottom: calc(var(--u) * 79);
+  }
+  .tile {
+    width: calc(var(--u) * 203);
+    height: calc(var(--u) * 275);
+    border-radius: calc(var(--u) * 24);
+  }
+}
