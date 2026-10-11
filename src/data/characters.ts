@@ -23,7 +23,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Keep Moving",
     "description": "You keep moving when everyone else would stop. You are good at finding a way through pressure without needing to make a big show of it.",
-    "image": "Pac-man-png.jpg"
+    "image": "pan_man-removebg-preview.png"
   },
   {
     "id": "C02",
@@ -45,7 +45,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Adapt",
     "description": "You read the room, adjust quickly and rarely need the same plan twice. You can be competitive without losing your sense of fun.",
-    "image": "ms_pac_man-removebg-preview.png"
+    "image": "mrs_pac_man-removebg-preview.png"
   },
   {
     "id": "C03",

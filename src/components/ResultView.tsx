@@ -18,6 +18,7 @@ function CardBody({ character }: { character: Character }) {
   return (
     <>
       <p className={styles.you}>You are…</p>
+      <p className={styles.name}>{character.name}</p>
 
       <div className={styles.frame}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
