@@ -23,6 +23,8 @@ const AudioCtx = createContext<AudioContextValue | null>(null);
 export function AudioProvider({ children }: { children: React.ReactNode }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  // Vrai si la personne a coupé le son elle-même : PRESS START ne le relance plus.
+  const userMutedRef = useRef(false);
 
   // Une seule instance audio pour toute l'app (le layout ne se recharge pas
   // quand on change d'écran : la musique ne repart donc pas de zéro).
@@ -45,17 +47,23 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const pause = useCallback(() => {
+    userMutedRef.current = true;
     audioRef.current?.pause();
     setIsPlaying(false);
   }, []);
 
   const start = useCallback(() => {
+    if (userMutedRef.current) return; // son coupé par la personne : on respecte
     if (audioRef.current?.paused) play();
   }, [play]);
 
   const toggle = useCallback(() => {
-    if (audioRef.current?.paused) play();
-    else pause();
+    if (audioRef.current?.paused) {
+      userMutedRef.current = false; // réactivé volontairement
+      play();
+    } else {
+      pause();
+    }
   }, [play, pause]);
 
   return (
