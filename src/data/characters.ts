@@ -45,7 +45,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Adapt",
     "description": "You read the room, adjust quickly and rarely need the same plan twice. You can be competitive without losing your sense of fun.",
-    "image": "ms pac man.jpg"
+    "image": "ms_pac_man-removebg-preview.png"
   },
   {
     "id": "C03",
@@ -67,7 +67,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Unconventional Solution",
     "description": "You rarely take the obvious route. You experiment, improvise and somehow turn confusion into a workable plan.",
-    "image": "Qbert.png"
+    "image": "Qbert-removebg-preview.png"
   },
   {
     "id": "C08",
@@ -89,7 +89,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Calculated Leap",
     "description": "You can look at a terrible idea and still think, honestly, I can make that work.",
-    "image": "Frogger.jpg"
+    "image": "Frogger-removebg-preview.png"
   },
   {
     "id": "C13",
@@ -111,7 +111,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Burst Speed",
     "description": "You get bored standing still. You trust instinct, move quickly and usually make the experience more exciting for everyone around you.",
-    "image": "sonic.jpg"
+    "image": "sonic-removebg-preview.png"
   },
   {
     "id": "C16",
@@ -133,7 +133,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Unexpected Move",
     "description": "You are comfortable being a little strange. You tend to mix curiosity with confidence and rarely look exactly like everyone else.",
-    "image": "alex kidd.png"
+    "image": "alex_kidd-removebg-preview.png"
   },
   {
     "id": "C17",
@@ -155,7 +155,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Adventure Instinct",
     "description": "You want to see what is around the next corner. Routine is fine until something interesting appears.",
-    "image": "Wonder boy.jpg"
+    "image": "Tom-Tom-removebg-preview.png"
   },
   {
     "id": "C19",
@@ -177,7 +177,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Unlikely Comeback",
     "description": "You are good at making a ridiculous situation feel survivable. You may not start with the best hand, but you are stubborn about finishing.",
-    "image": "toki.png"
+    "image": "toki-trim.png"
   },
   {
     "id": "C25",
@@ -199,7 +199,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Counterattack",
     "description": "You are protective without needing to make a speech about it. When something matters, you show up.",
-    "image": "billy lee double dragon.webp"
+    "image": "billy_lee_double_dragon-removebg-preview.png"
   },
   {
     "id": "C26",
@@ -221,7 +221,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Rivalry",
     "description": "You enjoy a little competition because it makes things more interesting. You push yourself harder when someone is worth chasing.",
-    "image": "Jimmy_Lee_-_Double_Dragon_Revive_-_02.webp"
+    "image": "Jimmy_Lee_-_Double_Dragon_Revive_-_02-removebg-preview.png"
   },
   {
     "id": "C30",
@@ -265,7 +265,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Unpredictable Attack",
     "description": "You like having options and keeping people guessing. Predictability feels like giving away information for free.",
-    "image": "CCMackTheKnife.webp"
+    "image": "CCMackTheKnife-removebg-preview.png"
   },
   {
     "id": "C32",
@@ -287,7 +287,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Perfect Cut",
     "description": "You like mastery. You would rather be very good at a difficult thing than casually good at ten easy things.",
-    "image": "Ginzu the Ninja.jpg"
+    "image": "Ginzu_the_Ninja-removebg-preview.png"
   },
   {
     "id": "C36",
@@ -397,7 +397,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Make an Entrance",
     "description": "You like experiences that have personality. You are not afraid of being expressive, and you know when a little flair makes things more fun.",
-    "image": "Mai Shiranui.webp"
+    "image": "Mai_Shiranui-removebg-preview.png"
   },
   {
     "id": "C42",
@@ -419,7 +419,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "No Shortcuts",
     "description": "You have standards and you tend to stick to them. You believe improvement means putting in the work instead of looking for an easy way around it.",
-    "image": "Kim Kaphwan.jpg"
+    "image": "Kim_Kaphwan-removebg-preview.png"
   },
   {
     "id": "C44",
@@ -441,7 +441,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Momentum",
     "description": "You get energy from action. A challenge, a crowd or a little friendly rivalry can turn your motivation all the way up.",
-    "image": "Joe Higashi.png"
+    "image": "Joe_Higashi-removebg-preview.png"
   },
   {
     "id": "C45",
@@ -463,7 +463,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Lock and Load",
     "description": "You are at your best when something needs doing now. You trust your instincts and keep moving when the situation gets loud.",
-    "image": "Marco Rossi.jpg"
+    "image": "Marco_Rossi-removebg-preview.png"
   },
   {
     "id": "C47",
@@ -485,7 +485,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Grenade Logic",
     "description": "You improvise confidently and are not afraid of messy solutions. You can make quick decisions without freezing up.",
-    "image": "Eri Kasamoto.jpg"
+    "image": "Eri_Kasamoto-removebg-preview.png"
   },
   {
     "id": "C48",
@@ -507,7 +507,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Professionalism",
     "description": "You stay composed when other people are losing the plot. You like being prepared, but you can adapt when preparation is no longer enough.",
-    "image": "Fio Germi.jpg"
+    "image": "Fio_Germi-removebg-preview.png"
   },
   {
     "id": "C49",
@@ -529,7 +529,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Maximum Impact",
     "description": "You are direct, intense and hard to discourage. When subtlety is not working, you are perfectly happy making a bigger move.",
-    "image": "Ralf Jones.jpg"
+    "image": "Ralf_Jones-removebg-preview.png"
   },
   {
     "id": "C54",
@@ -551,7 +551,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Controlled Explosion",
     "description": "You enjoy planning something clever and then watching the situation become beautifully chaotic. Strategy and mischief are not opposites to you.",
-    "image": "Bomberman.jpg"
+    "image": "Bomberman-removebg-preview.png"
   },
   {
     "id": "C55",
@@ -595,7 +595,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Leap of Faith",
     "description": "You tackle obstacles head-on. Even when the odds are stacked your steady reliability and willingness to jump into danger inspire those around you.",
-    "image": "mario.png"
+    "image": "mario-removebg-preview.png"
   },
   {
     "id": "C57",
@@ -617,7 +617,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "High Jump",
     "description": "You might hesitate before acting but you always show up when it counts. You bring a slightly different often more calculated approach to the same problems.",
-    "image": "luigi.jpg"
+    "image": "luigi-removebg-preview.png"
   },
   {
     "id": "C58",
@@ -639,7 +639,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Float Above It All",
     "description": "You handle crises with elegance. While others panic your diplomatic charm and ability to glide over the most perilous situations keep the group together.",
-    "image": "princess peach.jpg"
+    "image": "princess_peach-removebg-preview.png"
   },
   {
     "id": "C59",
@@ -683,7 +683,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Unpredictable Obstacles",
     "description": "You dictate the pace by creating chaos. You rely on brute strength and overwhelming force to keep your opponents constantly reacting to your moves.",
-    "image": "donkey kong.png"
+    "image": "donkey_kong-removebg-preview.png"
   },
   {
     "id": "C61",
@@ -705,7 +705,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Fortress Builder",
     "description": "You think big and build formidable defenses. Even when your grand plans are thwarted you return stronger with a new fiery approach.",
-    "image": "bowser.jpg"
+    "image": "bowser-clean.png"
   },
   {
     "id": "C62",
@@ -727,7 +727,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Aerial Advantage",
     "description": "You are the brains of the operation. You use your intellect and tinkering skills to give your team the edge approaching problems from angles others cannot reach.",
-    "image": "tails.png"
+    "image": "tails-removebg-preview.png"
   },
   {
     "id": "C63",
@@ -793,7 +793,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Spiral Arrow",
     "description": "You strike fast and accurately. With a disciplined mindset you dissect your obstacles quickly before they even realize what hit them.",
-    "image": "cammy.png"
+    "image": "cammy-removebg-preview.png"
   },
   {
     "id": "C66",
@@ -815,7 +815,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Imitation and Innovation",
     "description": "You learn by doing. Your boundless curiosity drives you to mimic the greats and you are not afraid to dive into challenges far above your weight class.",
-    "image": "png-transparent-street-fighter-alpha-2-street-fighter-ex-sakura-kasugano-street-fighter-alpha-3-others-miscellaneous-child-black-hair.png"
+    "image": "png-transparent-street-fighter-alpha-2-street-fighter-ex-sakura-kasugano-street-fighter-alpha-3-others-miscellaneous-child-black-hair-removebg-preview.png"
   },
   {
     "id": "C68",
@@ -837,7 +837,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Soul Fist",
     "description": "You view challenges as entertainment. You bring an unmatched level of style and charisma to everything you do charming those around you while effortlessly achieving your goals.",
-    "image": "morrigan-tvc1.jpg"
+    "image": "morrigan-tvc1-removebg-preview.png"
   },
   {
     "id": "C69",
@@ -859,7 +859,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Rolling Buckler",
     "description": "You are all about community and joy. Even in the midst of conflict your energetic acrobatic approach and open heart draw people to your side.",
-    "image": "darkstalkers-resurrection-darkstalkers-3-night-warriors-darkstalkers-revenge-morrigan-aensland-demitri-maximoff-bye-felicia.jpg"
+    "image": "darkstalkers-resurrection-darkstalkers-3-night-warriors-darkstalkers-revenge-morrigan-aensland-demitri-maximoff-bye-felicia-removebg-preview.png"
   },
   {
     "id": "C71",
@@ -881,7 +881,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Psycho Ball",
     "description": "You balance a public persona with serious hidden talents. You use your natural charisma and psychic intuition to protect your friends and win over crowds.",
-    "image": "athena-psycho-soldier-fight.jpg"
+    "image": "athena-psycho-soldier-fight-removebg-preview.png"
   },
   {
     "id": "C72",
@@ -903,7 +903,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Moon Slasher",
     "description": "You let your actions speak for themselves. You are incredibly disciplined and prefer carrying out your duties flawlessly without drawing unnecessary attention.",
-    "image": "leona.jpg"
+    "image": "leona-removebg-preview.png"
   },
   {
     "id": "C75",
@@ -925,7 +925,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Fan Throw",
     "description": "You are elegant but deadly. You analyze the battlefield carefully using refined skills and precision to strike when your opponent is most vulnerable.",
-    "image": "kitana-mk11-female-character-illustration-png-clipart.jpg"
+    "image": "kitana-mk11-female-character-illustration-png-clipart-removebg-preview.png"
   },
   {
     "id": "C76",
@@ -969,7 +969,7 @@ export const characters: Character[] = [
     },
     "signatureAbility": "Flash Kick",
     "description": "You overcome your past by moving forward quickly. Your flexibility and speed mean you can adapt to danger faster than anyone else in the room.",
-    "image": "sarah-bryant-virtua-fighter-5-fighters-megamix-virtua-fighter-3-others.jpg"
+    "image": "sarah-bryant-virtua-fighter-5-fighters-megamix-virtua-fighter-3-others.png"
   },
   {
     "id": "C78",

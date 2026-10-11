@@ -5,6 +5,7 @@ import ArcadeCard from "@/components/ArcadeCard";
 import PixelButton from "@/components/PixelButton";
 import MuteButton from "@/components/MuteButton";
 import { useAudio } from "@/context/AudioProvider";
+import { useQuiz } from "@/context/QuizProvider";
 import { characters } from "@/data/characters";
 import { questions } from "@/data/questions";
 import styles from "./page.module.css";
@@ -12,8 +13,10 @@ import styles from "./page.module.css";
 export default function HomePage() {
   const router = useRouter();
   const { start } = useAudio();
+  const { reset } = useQuiz();
 
   function handleStart() {
+    reset(); // nouvelle partie : on efface les anciennes réponses
     start(); // le clic autorise le navigateur à lancer la musique
     router.push("/quiz");
   }

@@ -10,6 +10,10 @@
   --pink: #ef476f;
   --green: #06d6a0;
   --purple-text: #e0aaff;
+  --text: #ede0ff;
+  --muted-border: #616c94;
+  --blue: #118ab2;
+  --selected-bg: #0c4b5f;
 
   /* Unité mobile : 1 pixel de la maquette mobile (992 px de large) */
   --u: calc(100vw / 992);

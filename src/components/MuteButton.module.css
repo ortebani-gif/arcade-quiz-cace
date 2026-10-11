@@ -12,6 +12,14 @@
   cursor: pointer;
 }
 
+/* Intégré dans une ligne d'en-tête (écran des questions) au lieu d'être posé en haut à droite */
+.button.inline {
+  position: relative;
+  top: auto;
+  right: auto;
+  flex: none;
+}
+
 .button img,
 .button svg {
   width: 100%;

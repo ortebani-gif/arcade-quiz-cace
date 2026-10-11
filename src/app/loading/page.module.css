@@ -1,0 +1,134 @@
+.loading {
+  padding: 31px 26px 24px;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-pixel), monospace;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--yellow);
+  text-shadow: 2px 2px 0 var(--yellow-shadow);
+}
+
+/* Barre segmentée : 20 cases */
+.track {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 4px;
+  height: 30px;
+  margin-top: 25px;
+  padding: 3px;
+  border: 3px solid var(--border);
+  border-radius: 999px;
+}
+
+.block {
+  border-radius: 2px;
+  background: transparent;
+}
+
+.on {
+  background: var(--green);
+}
+
+.measuring {
+  margin: 10px 0 0;
+  font-size: 15.8px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--green);
+}
+
+.traits {
+  list-style: none;
+  margin: 28px auto 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 140px);
+  gap: 10px 0;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.label {
+  color: #897eb8;
+}
+
+.active .label {
+  color: var(--border);
+}
+
+/* Carré vert devant le trait en cours (desktop : seulement sur le trait actif) */
+.marker {
+  display: none;
+  flex: none;
+  width: 8px;
+  height: 8px;
+  margin-right: 9px;
+  background: var(--green);
+}
+
+.active .marker {
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .loading {
+    padding: calc(var(--u) * 70) calc(var(--u) * 73) calc(var(--u) * 84);
+  }
+  .title {
+    font-size: calc(var(--u) * 45);
+    line-height: calc(var(--u) * 57);
+    text-shadow: calc(var(--u) * 4) calc(var(--u) * 4) 0 var(--yellow-shadow);
+  }
+  .track {
+    height: calc(var(--u) * 53);
+    margin-top: calc(var(--u) * 57);
+    padding: calc(var(--u) * 6);
+    border-width: calc(var(--u) * 5);
+    gap: calc(var(--u) * 5);
+  }
+  .block {
+    border-radius: calc(var(--u) * 3);
+  }
+  .measuring {
+    margin-top: calc(var(--u) * 42);
+    font-size: calc(var(--u) * 35.6);
+    line-height: calc(var(--u) * 48);
+  }
+  /* 2 colonnes de 4 lignes : Boldness…Precision puis Grit…Flair */
+  .traits {
+    margin: calc(var(--u) * 77) 0 0 calc(var(--u) * 18);
+    grid-template-columns: repeat(2, calc(var(--u) * 304));
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+    gap: calc(var(--u) * 23) 0;
+    justify-content: start;
+  }
+  .item {
+    justify-content: flex-start;
+    font-size: calc(var(--u) * 31);
+    line-height: calc(var(--u) * 40);
+  }
+  .marker {
+    display: block;
+    visibility: hidden;
+    width: calc(var(--u) * 18);
+    height: calc(var(--u) * 18);
+    margin-right: calc(var(--u) * 14);
+  }
+  .active .marker {
+    visibility: visible;
+  }
+}

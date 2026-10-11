@@ -3,13 +3,13 @@
 import { useAudio } from "@/context/AudioProvider";
 import styles from "./MuteButton.module.css";
 
-export default function MuteButton() {
+export default function MuteButton({ inline = false }: { inline?: boolean }) {
   const { isPlaying, toggle } = useAudio();
 
   return (
     <button
       type="button"
-      className={styles.button}
+      className={`${styles.button} ${inline ? styles.inline : ""}`}
       onClick={toggle}
       aria-label={isPlaying ? "Mute music" : "Play music"}
       aria-pressed={isPlaying}

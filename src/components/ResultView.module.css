@@ -1,0 +1,212 @@
+/* Mesures prises sur resultat.png (desktop 903x716) et resultat_phone.png (992x2148) */
+.result {
+  padding: 30px 26px 30px;
+  text-align: center;
+}
+
+.you {
+  margin: 0;
+  font-family: var(--font-pixel), monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--purple-text);
+}
+
+/* Cadre de l'image : fond blanc (décision), l'image est contenue sans déformation */
+.frame {
+  width: 197px;
+  height: 246px;
+  margin: 17px auto 0;
+  padding: 8px;
+  background: #fff;
+  border: 4px solid var(--border);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.title {
+  margin: 20px 0 0;
+  font-family: var(--font-pixel), monospace;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  text-shadow: 2px 2px 0 var(--yellow-shadow);
+}
+
+.meta {
+  margin: 12px 0 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--green);
+}
+
+.description {
+  margin: 14px 0 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--purple-text);
+}
+
+.pill {
+  width: fit-content;
+  max-width: 100%;
+  margin: 22px auto 0;
+  padding: 0 18px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--pink);
+  font-family: var(--font-pixel), monospace;
+  text-transform: uppercase;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--card);
+}
+
+.buttons {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.result .btn.btn {
+  width: auto;
+  height: 34px;
+  padding: 0 28px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  border-width: 3px;
+  box-shadow: none;
+}
+
+.result .btn.btn:first-child:not(:last-child) {
+  box-shadow: 0 3px 0 var(--pink);
+}
+
+.empty {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.empty .you {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--yellow);
+}
+
+.empty .description {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+@media (max-width: 720px) {
+  .result.result {
+    width: calc(var(--u) * (722 - 26));
+  }
+
+  .result {
+    padding: calc(var(--u) * 58) calc(var(--u) * 43) calc(var(--u) * 46);
+  }
+
+  .you {
+    font-size: calc(var(--u) * 29);
+    line-height: calc(var(--u) * 36);
+  }
+
+  .frame {
+    width: calc(var(--u) * 468);
+    height: calc(var(--u) * 585);
+    margin-top: calc(var(--u) * 38);
+    padding: calc(var(--u) * 20);
+    border-width: calc(var(--u) * 9);
+    border-radius: calc(var(--u) * 30);
+  }
+
+  .title {
+    margin-top: calc(var(--u) * 52);
+    font-size: calc(var(--u) * 50);
+    line-height: calc(var(--u) * 70);
+    text-shadow: calc(var(--u) * 4) calc(var(--u) * 4) 0 var(--yellow-shadow);
+  }
+
+  .meta {
+    margin-top: calc(var(--u) * 20);
+    font-size: calc(var(--u) * 31.6);
+    line-height: calc(var(--u) * 42);
+  }
+
+  .description {
+    margin-top: calc(var(--u) * 28);
+    font-size: calc(var(--u) * 29);
+    line-height: calc(var(--u) * 47);
+  }
+
+  .pill {
+    width: 100%;
+    margin-top: calc(var(--u) * 44);
+    padding: 0 calc(var(--u) * 20);
+    min-height: calc(var(--u) * 118);
+    font-size: calc(var(--u) * 27);
+    line-height: calc(var(--u) * 30);
+  }
+
+  /* Boutons empilés, pleine largeur */
+  .buttons {
+    margin-top: calc(var(--u) * 62);
+    flex-direction: column;
+    gap: calc(var(--u) * 24);
+  }
+
+  .result .btn.btn {
+    width: 100%;
+    height: calc(var(--u) * 108);
+    padding: 0;
+    font-size: calc(var(--u) * 38);
+    letter-spacing: calc(var(--u) * 2);
+    border-width: calc(var(--u) * 9);
+  }
+
+  .result .btn.btn:first-child:not(:last-child) {
+    box-shadow: 0 calc(var(--u) * 9) 0 var(--pink);
+  }
+
+  .empty .you {
+    font-size: calc(var(--u) * 40);
+    line-height: calc(var(--u) * 52);
+  }
+
+  .empty .description {
+    font-size: calc(var(--u) * 32);
+    line-height: calc(var(--u) * 48);
+  }
+}
+
+/* Fond cliquable (écran de partage) : revient au résultat */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: default;
+}

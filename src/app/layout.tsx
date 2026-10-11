@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { AudioProvider } from "@/context/AudioProvider";
+import { QuizProvider } from "@/context/QuizProvider";
 import ArcadeBackground from "@/components/ArcadeBackground";
 
 const pressStart = localFont({
@@ -31,8 +32,10 @@ export default function RootLayout({
     <html lang="en" className={`${pressStart.variable} ${jetbrains.variable}`}>
       <body>
         <AudioProvider>
-          <ArcadeBackground />
-          <main className="screen">{children}</main>
+          <QuizProvider>
+            <ArcadeBackground />
+            <main className="screen">{children}</main>
+          </QuizProvider>
         </AudioProvider>
       </body>
     </html>
